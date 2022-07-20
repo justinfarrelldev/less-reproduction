@@ -11,7 +11,7 @@ npm install --legacy-peer-deps
 
 Do not use Yarn, pnpm or Yak. 
 
-Once that is done, create a .env file and add in "DEVELOPMENT=true".
+Normally I don't commit .env files for obvious reasons, but I have here for the sake of simplicity (and since the contents aren't private per se, just configuration). 
 
 # How To Start
 
