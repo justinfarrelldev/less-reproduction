@@ -26,3 +26,7 @@ For this reproduction, that would be:
 ```
 npm run start -- --Test
 ```
+
+# Solution
+
+The solution can be found here: https://github.com/webpack/webpack/discussions/16073#discussioncomment-3196289
