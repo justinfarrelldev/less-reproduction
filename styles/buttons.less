@@ -1,6 +1,5 @@
 .btn-shadow {
   cursor: pointer;
-  box-shadow: @btn-shadow;
 }
 
 .as-btn() {
@@ -105,27 +104,10 @@
 }
 
 .a-btn {
-  .base-btn();
-  font-family: @title-font;
+  .base-btn(); 
   font-weight: 500;
   text-decoration: none;
-  text-transform: uppercase;
-
-  &.primary-bg {
-    color: @primary-sm-text;
-  }
-
-  &.secondary-bg {
-    color: @secondary-sm-text;
-  }
-
-  &.secondary-light-bg {
-    color: @secondary-light-sm-text;
-  }
-
-  &.secondary-dark-bg {
-    color: @secondary-dark-lg-text;
-  }
+  text-transform: uppercase;  
 
   & i:only-child {
     font-size: 2.8rem;
